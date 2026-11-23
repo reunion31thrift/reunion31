@@ -105,7 +105,7 @@ collections:
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Description, name: description, widget: text, required: false }
-      - { label: Cover photo, name: cover, widget: image, required: false, hint: Used on the home page tiles. If empty, the first listing photo is used. }
+      - { label: Cover photo, name: cover, widget: image, required: false, hint: "Used on the home page tiles. If empty, the first listing photo is used." }
       - { label: Order, name: order, widget: number, value_type: int, default: 20 }
 
   # ---------------- Pages & settings ----------------
@@ -136,7 +136,7 @@ collections:
           - { label: Main heading, name: hero_heading, widget: string }
           - { label: Intro text, name: hero_text, widget: text }
           - { label: Main photo, name: hero_image, widget: image, required: false }
-          - { label: Main video (optional, plays silently on loop), name: hero_video, widget: file, required: false, hint: "Under 10 MB is best. Replaces the photo when set." }
+          - { label: "Main video (optional, plays silently on loop)", name: hero_video, widget: file, required: false, hint: "Under 10 MB is best. Replaces the photo when set." }
           - label: Stats
             name: stats
             widget: list
