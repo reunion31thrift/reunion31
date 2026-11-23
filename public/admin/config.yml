@@ -2,7 +2,7 @@
 # Every "Save" commits to GitHub; Cloudflare rebuilds the site in about a minute.
 backend:
   name: github
-  repo: mobaid92/reunion31-website
+  repo: reunion31thrift/reunion31
   branch: main
   commit_messages:
     create: "Add {{collection}} “{{slug}}”"

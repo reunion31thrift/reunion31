@@ -20,17 +20,17 @@ You edit in /admin  →  saved to this GitHub repo  →  Cloudflare rebuilds the
 ### 1. Host it on Cloudflare Pages (free)
 1. Create a free account at **dash.cloudflare.com**.
 2. Go to **Workers & Pages → Create → Pages → Connect to Git**. Choose *Pages*, not *Workers*.
-3. Connect GitHub and pick **reunion31-website**.
+3. Connect GitHub and pick **reunion31**.
 4. Build settings:
    - Framework preset: **None**
    - Build command: **`node build.mjs`**
    - Build output directory: **`dist`**
-5. Click **Save and Deploy**. Your site goes live at `https://reunion31-website.pages.dev` or similar.
+5. Click **Save and Deploy**. Your site goes live at `https://reunion31.pages.dev` or similar.
 
 ### 2. Log in to the admin panel
 1. Open `https://YOUR-SITE.pages.dev/admin`.
 2. Click **Sign In with Token**. The link opens GitHub's token page with the right permissions pre-selected.
-3. Under *Repository access*, choose **Only select repositories → reunion31-website**. Set the expiry to the longest allowed and click **Generate token**.
+3. Under *Repository access*, choose **Only select repositories → reunion31**. Set the expiry to the longest allowed and click **Generate token**.
 4. Paste the token into the admin panel. Save it in your password manager, because GitHub only shows it once.
 
 ### 3. First things to fill in (admin → Pages & settings → Business details)
